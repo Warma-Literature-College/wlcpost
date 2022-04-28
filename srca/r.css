@@ -1,0 +1,25 @@
+body{
+    background-color: antiquewhite;
+}
+
+.boraus{
+margin:5rem;
+border: 3px rgba(246, 205, 135, 0.773) solid;
+padding: 2rem;
+border-radius: 1rem;
+}
+h1{
+    font-size: xx-large;
+}
+
+.indexe{
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-top:1rem;
+}
+.footi>p{
+    text-align: center;
+}
+.tell{
+    margin-bottom: 2.2rem;
+}
