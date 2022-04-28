@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<head>
+<title>Jerećy Franá Toci</title>
+<meta charset="utf-8">
+<style type="text/css">
+    *{
+        margin: 0%;
+        padding: 0%;
+    }
+    body{
+        background-color: black;
+        font-family:Comfortaa
+    }
+    h1{
+        color: bisque;
+        text-align: center;
+        margin: 73px;
+        font-size: 65px;
+    }
+    h3{
+        color:tomato;
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+    .cont{
+        margin: 60px;
+        padding: 39px;
+        border: 1px solid aliceblue;
+        border-radius: 10px;
+    }
+    footer>p{
+        color: aliceblue;
+        text-align: center;
+        font-size: large;
+    }
+    .cont>p{
+        color: azure;
+        text-align: center;
+        font-size: larger;
+    }
+
+    hr{
+        margin: 21px;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+    a:link{color: rgba(152, 215, 240, 0.781);
+            text-decoration: none;
+    }
+	a:visited{color: whitesmoke}
+	a:hover{color: rgba(255, 216, 86, 0.87)}
+	a:active{color: indianred}
+	a{text-align: center}
+
+</style>
+<script type="text/javascript">
+
+    // <> Magic Text
+function getRandomChar() {
+  chars = "ÂÃÉÊÐÑÙÚÛÜéêëãòóôēĔąĆćŇň1234567890abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ~!@#$%^&*()-=_+{}[";
+  return chars.charAt(Math.floor(Math.random() * chars.length) + 1)
+}
+
+function magicTextGen(element) {
+  var msg = element.textContent;
+  var length = msg.length;
+
+  setInterval(() => {
+    var newMsg = "";
+    for (i = 0; i <= length; i++) {
+      newMsg += getRandomChar(msg.charAt(i));
+    }
+    element.textContent = newMsg;
+
+  }, 45)
+}
+
+function renderMagicText() {
+  document.querySelectorAll('.magic-text').forEach((e) => {
+    magicTextGen(e);
+  })
+}
+renderMagicText();
+window.onload = function(){
+    renderMagicText();
+};
+// Magic Text </>
+</script>
+<link rel="stylesheet" href="https://fonts.font.im/css?family=Comfortaa&amp;subset=cyrillic,cyrillic-ext,greek,latin-ext">
+<link rel="Bookmark" href="https://feiron.xyz/srca/img/ett/favicon-32x32-next.png">
+<link rel="shortcut icon" href="https://feiron.xyz/srca/img/ett/favicon-32x32-next.png" type="image/x-icon">
+<link rel="icon" href="https://feiron.xyz/srca/img/ett/favicon-32x32-next.png" type="image/x-icon">
+
+</head>
+
+<body>
+    <h1>Beden Jkovari Sait</h1>
+    <div class="cont">
+        <h3>Doqte ȝ vien su Pago?</h3>
+        <p>Po ehinr, su pago o æto kamina net do publik. Vo tu akien. Si tu hoce visi a e main pago, <a href="https://feiron.xyz">hit aki</a>.</p>
+        <hr>
+        
+        <h3>Y qtotam aki?</h3>
+        <p>Aki gde tu kanet visien. Tu hajń śveciğen.</p>
+        <hr>
+        
+        <h3>Pravda?</h3>
+        <p>Da. Pravda. Ocin Pravda. Y Hjeler Ocin Pravda. Y Hjeler Jest Ocin Pravda. Poze, eskete aki...</p>
+        <hr>
+        
+    </div>
+
+    
+</body>
+
+<footer>
+    <p><a href="javascript:alert('Neceto aki PRAVDA!!!');renderMagicText();" class="magic-text" >testtekstjestTyKurwaCzemu</a></p>
+    
+    <p>Visi Monitroen ot GSSR IMC</p>
+    <p>Garmoninqskij Logrefel ID Kod: <a href="https://gssr.fun/gicp/0000000A1/" target="_blank">GICP0000000A1</a></p>
+    <p>MoeICP.Rec <a href="https://icp.gov.moe/?keyword=20213086" target="_blank">20213086</a></p>
+    <p>Pago sdnedare z idioma: Gyq_GSSR_Latin_12.0</p>
+
+    <!--  -->
+</footer>
