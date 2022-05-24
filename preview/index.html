@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UomaRead - H5</title>
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/bootstrap-icons.css">
+    <style>
+        *{
+            padding: 0%;
+            margin: 0%;
+        }
+        .text-black-100{
+            color: black !important;
+        }
+        .bg-lighter{
+            background-color: rgb(145, 238, 207);
+        }
+        .borad{
+            border-radius: 0.25rem;
+        }
+        li, span{
+            vertical-align: middle;
+        }
+        body{
+            padding: 0.75rem;
+        }
+        .upper{
+            height: 0.7rem;
+        }
+        li>a{
+            display: inherit;
+        }
+        li>a:link{
+            display: block;
+        }
+        li>a:hover, a:hover{
+            text-decoration: none;
+            display: block;
+        }
+        a>.list-group-item:hover{
+            background-color: rgba(142, 142, 142, 0.166);
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-3">
+
+                <div class="upper"></div>
+                        <!-- <div class="col-md-12"> -->
+                            <ul class="list-group">
+                                <li class="list-group-item disabled bg-primary text-black-100">WLC报务系统 - Web <span class="badge badge-info float-right">Pre</span></li>
+                                <li class="list-group-item bg-info">RSS订阅</li>
+                                <li class="list-group-item bg-lighter">申请投稿<span class="badge badge-pill badge-danger float-right">?</span></li>
+                                <li class="list-group-item disabled bg-transparent"><br></li>
+                                <li class="list-group-item bg-warning">文章索引</li>
+                                <li class="list-group-item disabled bg-transparent"></li>
+                                <li class="list-group-item bg-warning disabled text-black-100">文章列表</li>
+                                <a href="./post/dc/0.html"><li class="list-group-item">跳转到文章0</li></a>
+                                <a href="./post/dc/1.html"><li class="list-group-item">跳转到文章1</li></a>
+
+
+                                <li class="list-group-item ">...</li>
+                            </ul>
+                        <!-- </div> -->
+            
+
+            </div>
+            <div class="col-9">
+                <div class="upper"></div>
+                <iframe src="./main.html" frameborder="0" class="maindisp border border-info borad" width="100%" height="300px">
+
+                </iframe>
+
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>
