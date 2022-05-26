@@ -1,0 +1,63 @@
+:root{
+    --color-white:000;
+}
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.text-black-100{
+    color: black !important;
+}
+.bg-lighter{
+    background-color: rgb(145, 238, 207);
+}
+.borad{
+    border-radius: 0.25rem;
+}
+li, span{
+    vertical-align: middle;
+}
+body{
+    padding: 0.75rem;
+}
+.upper{
+    height: 0.7rem;
+}
+li>a{
+    display: inherit;
+}
+li>a:link{
+    display: block;
+}
+li>a:hover, a:hover{
+    text-decoration: none;
+    display: block;
+}
+.badge{
+    vertical-align: bottom !important;/*?*/
+    margin-top: 0.18rem;
+}
+a>.list-group-item:hover{
+    background-color: rgba(142, 142, 142, 0.166);
+}
+.list-group-item {
+    padding: 0.5rem 0.9rem !important;
+    border:none;
+    font-size:90%;
+    border-left: 1px solid rgba(0, 0, 0, 0.125);
+    border-right: 1px solid rgba(0, 0, 0, 0.125);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+    /* padding: 1.5rem !important; */
+}
+.list-group-item-bs{
+    padding: 0.75rem 1.25rem !important;
+}
+.hide-bottom{
+    border-bottom: none !important;
+}
+.bg-light-warn{
+    background-color: #ffce5399 !important;
+}
+.dropdown-menu{
+    width: inherit !important;
+}
